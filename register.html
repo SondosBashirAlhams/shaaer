@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>إنشاء حساب جديد</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/loginAndSignUp.css">
+</head>
+<body >
+    <form class="form" id="myForm">
+        <div class="signup-container box ">
+    
+            <img class="logo_img" src="./assets/images/logo/kaaba.png"/>
+            <h2>إنشاء حساب جديد</h2>
+    
+            <div class="inputBox">
+                <input type="text" id="username" name="" required>
+                <label>اسم المستخدم</label>
+            </div>
+            <div class="inputBox">
+                <input type="text" id="email" name="email" required>
+                <label style="margin-left: -20px;">البريد الإلكتروني</label>
+            </div>
+            <div class="inputBox filed space">
+                <input type="password" id="password" name="wpas" class="pass-key" required>
+                <label style="margin-left: 10px;">كلمة المرور</label>
+                <span class="show" onclick="togglePasswordVisibility()"><i class="fa fa-eye" id="toggle-icon"></i></span>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value= "أنشاء حساب" id="sign_up">
+            <p class="link_login" style="text-align:center; margin-top: -12px;">هل لديك حساب بالفعل؟ <a href="login.html">تسجيل الدخول</a></p>
+            </div>
+        </div>
+    </form>
+    <script src="assets/js/register.js"></script>
+    
+</body>
+</html>

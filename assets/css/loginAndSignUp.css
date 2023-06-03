@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       
+   }
+   .form{
+       margin-right: 270px;
+       margin-left: 270px;
+   }
+   .logo_img{
+       width: 70px;
+       height: 70px;
+       margin: 0 0 20px;
+       margin-left:40%;
+       margin-top: -80px;
+   }
+   .box{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       width: 350px;
+       padding: 40px;
+       background: #ffffff;
+       box-sizing: border-box;
+       box-shadow: 0 5px 8px #96b147;
+       border-radius: 10px;
+   
+   }
+   .box h2{
+       color: #000;
+       text-align: center;
+       font-size: 35px;
+       margin-bottom: 20px;
+         
+   }
+   
+   .box .inputBox{
+       position: relative ;
+   }
+   .box .inputBox input{
+       width: 100%;
+       padding:  10px 0 ;
+       font-size: 16px;  
+       color: #000;
+       letter-spacing: 1px;
+       margin-bottom: 30px;
+       border: none;
+       border-bottom: 1px solid #C2E853;
+       outline: none;
+   }
+   .box .inputBox label{
+       position: absolute;
+       top: 0;
+       left: 69.3%;
+       letter-spacing: 1px;
+       padding: 10px 0;
+       font-size: 16px;
+       color: #000;
+       pointer-events: none;
+       transition: .4s;
+       
+   }
+   
+   
+   .box .inputBox input:focus ~ label{
+       top: -18px;
+       left: 70%;
+       color: #000;
+       font-size: 12px;   
+   }
+   
+   .box input[type="submit"]{
+   
+       border: none;
+       outline: none;
+       color: #000;
+       background:  #C2E853;
+       padding: 10px 20px ;
+       cursor: pointer;
+       border-radius: 10px ;
+       margin-top: 10px;
+       
+   }
+   .link_login ,.link_login a{
+     color:#000;
+     word-spacing: 2px;
+     
+   }
+   /* ***************************************************** */
+   
+   .show {
+       position: absolute;
+       left: -25px;
+       font-size: 13px;
+       color: #000;
+       font-weight: 700;
+       cursor: pointer;
+   }
+   
+   
+   .filed span {
+       width: 40px;
+       line-height: 45px;
+   }
+   
+   #toggle-icon {
+       visibility: hidden; 
+   }
+   
+   /* ***************************************************** */
+           @media (max-width: 600px) {
+               .login-container {
+                   width: 90%;
+               }
+           }
+      /* ************************************************************************ */
+    /* SignUp ****************************************************************** */
+              
+      *{
+ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.form{
+    margin-right: 270px;
+    margin-left: 270px;
+}
+.logo_img{
+    width: 70px;
+    height: 70px;
+    margin: 0 0 20px;
+    margin-left:40%;
+    margin-top: -80px;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    padding: 40px;
+    background: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0 5px 8px #96b147;
+    border-radius: 10px;
+
+}
+.box h2{
+    color: #000;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+      
+}
+
+.box .inputBox{
+    position: relative ;
+}
+.box .inputBox input{
+    width: 100%;
+    padding:  10px 0 ;
+    font-size: 16px;  
+    color: #000;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #C2E853;
+    outline: none;
+}
+.box .inputBox label{
+    position: absolute;
+    top: 0;
+    left: 69.3%;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+    pointer-events: none;
+    transition: 1.4s;
+    
+}
+
+
+.box .inputBox input:focus ~ label{
+    top: -18px;
+    left: 75%;
+    color: #000;
+    font-size: 12px;   
+}
+
+.box input[type="submit"]{
+
+    border: none;
+    outline: none;
+    color: #000;
+    background:  #C2E853;
+    padding: 10px 20px ;
+    cursor: pointer;
+    border-radius: 10px ;
+    margin-top: 10px;
+    
+}
+.link_login ,.link_login a{
+  color:#000;
+  word-spacing: 2px;
+  
+}
+/* ********************************************** */
+
+.show {
+    position: absolute;
+    left: -25px;
+    font-size: 13px;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.filed span {
+    width: 40px;
+    line-height: 45px;
+}
+
+#toggle-icon {
+    visibility: hidden;
+    
+}
+
+input[type="password"]:focus + .show #toggle-icon {
+    visibility: visible;
+}
+
+/* ******************************** */
+        @media (max-width: 600px) {
+            .login-container {
+                width: 90%;
+            }
+        }
+      
+ 
